@@ -1,6 +1,6 @@
 print("Welcome to the Tip Calculator and bill splitter!")
 
-bill = float(input("Enter Total Bill Amount: "))
+bill = float(input("Enter Total Bill Amount: ")).center()
 tip = float(input("Enter how much tip u would like to give: "))
 people = int(input("Enter number of people: "))
 
